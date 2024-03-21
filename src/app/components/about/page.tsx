@@ -1,7 +1,7 @@
 import React from "react";
-import Intro from "./Intro";
+import About from "./About";
 const page = () => {
-  return <Intro></Intro>;
+  return <About></About>;
 };
 
 export default page;
