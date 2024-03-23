@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        shake: "shake 0.82s cubic-bezier(.36,.07,.19,.97) both",
+      },
+      keyframes: {
+        shake: {
+          "0%": { transform: "translate3d(-1px, 0, 0)" },
+          "50%": { transform: "translate3d(2px, 0, 0)" },
+          "100%": { transform: "translate3d(-1px, 0, 0)" },
+        },
+      },
       fontFamily: {
         "press-start": ['"Press Start 2P"', "cursive"],
       },
