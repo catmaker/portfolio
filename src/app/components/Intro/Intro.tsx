@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Intro = () => {
   return (
-    <div className="flex text-white min-h-20 items-center justify-center flex-col">
+    <div className="flex text-black min-h-20 items-center justify-center flex-col">
       <div className="flex w-4/5 justify-center mt-48">
         <Image
           className="rounded-full"

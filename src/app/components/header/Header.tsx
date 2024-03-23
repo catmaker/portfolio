@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="fixed w-full z-10 flex text-white min-h-20 items-center justify-center">
+    <div className="fixed w-full z-10 flex text-black min-h-20 items-center justify-center">
       <div className="flex w-4/5 justify-between">
         <div className="text-3xl">JISU</div>
         <div className="flex items-center">

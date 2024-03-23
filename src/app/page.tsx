@@ -4,7 +4,7 @@ import About from "@/app/components/about/page";
 import Skill from "@/app/components/skill/page";
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white w-full">
+    <main className="min-h-screen bg-white text-black w-full">
       <Header />
       <div className="h-screen">
         <Intro />
