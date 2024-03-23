@@ -1,7 +1,7 @@
 import React from "react";
-import Skill from "./Skill";
+import Project from "./Project";
 const page = () => {
-  return <Skill></Skill>;
+  return <Project></Project>;
 };
 
 export default page;
