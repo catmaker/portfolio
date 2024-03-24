@@ -33,7 +33,7 @@ const Intro = () => {
           </div>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-9 text-sm">github.</span>
-            <span className="text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="hover:text-custom-orange transition-colors duration-200 text-custom-gray text-xs border-b-1 border-custom-gray">
               <a href="https://github.com/catmaker" target="_blank">
                 https://github.com/catmaker
               </a>

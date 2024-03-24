@@ -29,19 +29,19 @@ const Header = () => {
       }`}
     >
       <div className="flex w-90 justify-between">
-        <div className="text-base">👨‍💻 JISU</div>
+        <div className="text-base cursor-pointer">👨‍💻 JISU</div>
         <div className="flex items-center">
           <ul className="flex gap-4">
-            <li>
+            <li className="transition-colors duration-200 hover:text-custom-orange">
               <Link href="#intro">Home</Link>
             </li>
-            <li>
+            <li className="transition-colors duration-200 hover:text-custom-orange">
               <Link href="#about">About</Link>
             </li>
-            <li>
+            <li className="transition-colors duration-200 hover:text-custom-orange">
               <Link href="#project">Projects</Link>
             </li>
-            <li>
+            <li className="transition-colors duration-200 hover:text-custom-orange">
               <Link href="#contact">Contact</Link>
             </li>
           </ul>
