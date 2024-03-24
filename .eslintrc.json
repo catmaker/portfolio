@@ -1,8 +1,8 @@
 {
-  "extends": ["react-app", "prettier/prettier"],
+  "extends": ["next", "prettier"],
   "plugins": ["react-hooks", "simple-import-sort", "prettier"],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react-hooks/rules-of-hooks": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
@@ -13,9 +13,9 @@
     "computed-property-spacing": ["error", "never"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "eol-last": ["error", "always"],
-    "quotes": ["error", "single"],
+    "quotes": ["error", "double"],
     "no-tabs": "error",
-    "semi": ["error", "never"],
+    "semi": ["error", "always"],
     "import/no-anonymous-default-export": 0,
     "object-shorthand": "error",
     "padding-line-between-statements": [

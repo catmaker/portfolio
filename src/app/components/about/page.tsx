@@ -1,7 +1,9 @@
 import React from "react";
+
 import About from "./About";
-const page = () => {
+
+const Page = () => {
   return <About></About>;
 };
 
-export default page;
+export default Page;

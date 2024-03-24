@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        "3000": "3000ms",
+      },
       screens: {
         sm: "640px",
         md: "768px",
@@ -41,9 +44,6 @@ const config: Config = {
           "50%": { transform: "translate3d(2px, 0, 0)" },
           "100%": { transform: "translate3d(-1px, 0, 0)" },
         },
-      },
-      fontFamily: {
-        "press-start": ['"Press Start 2P"', "cursive"],
       },
       transitionProperty: {
         size: "font-size",
