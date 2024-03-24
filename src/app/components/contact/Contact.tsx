@@ -43,10 +43,6 @@ const Contact = () => {
           <div className="flex justify-center items-center font-bold">WORK</div>
           <div className="flex flex-col gap-1 text-xs md:text-base">
             <p className="text-xs">2023.06~2023.08</p>
-            <p className="md:hidden">엔젤로 음향 쇼핑몰</p>
-            <p className="hidden md:block">
-              엔젤로 음향 쇼핑몰 프론트 유지보수
-            </p>
           </div>
         </div>
       </div>
