@@ -21,19 +21,19 @@ const Intro = () => {
           <p className="font-bold mt-4 text-xl text-custom-orange">Contact</p>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-8 text-sm">phone.</span>
-            <span className="text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="text-custom-gray text-xs underline text-custom-gray">
               010-4951-4437
             </span>
           </div>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-8 text-sm">email.</span>
-            <span className="text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="text-custom-gray text-xs underline text-custom-gray">
               rzt0357@gmail.com
             </span>
           </div>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-9 text-sm">github.</span>
-            <span className="hover:text-custom-orange transition-colors duration-200 text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="hover:text-custom-orange transition-colors duration-200 text-custom-gray text-xs underline text-custom-gray">
               <a href="https://github.com/catmaker" target="_blank">
                 https://github.com/catmaker
               </a>
@@ -42,19 +42,19 @@ const Intro = () => {
           <p className="font-bold mt-4 text-xl text-custom-orange">Skill</p>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-8 text-sm">Deploy.</span>
-            <span className="text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="text-custom-gray text-xs underline text-custom-gray">
               Firebase, Vercel
             </span>
           </div>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-8 text-sm">Language.</span>
-            <span className="text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="text-custom-gray text-xs underline text-custom-gray">
               Typescript, Javascript, Styled-Component
             </span>
           </div>
           <div className="flex gap-2 items-center">
             <span className="w-80px pr-8 text-sm">FW/LB.</span>
-            <span className="text-custom-gray text-xs border-b-1 border-custom-gray">
+            <span className="text-custom-gray text-xs underline text-custom-gray">
               Next.js, React, Node.js
             </span>
           </div>
