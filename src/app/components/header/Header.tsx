@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed w-full z-10 flex  text-black min-h-14 items-center justify-center shadow-lg  ${
+      className={`fixed w-full z-10 flex bg-white text-black min-h-14 items-center justify-center shadow-lg  ${
         isVisible ? "" : "hidden"
       }`}
     >
