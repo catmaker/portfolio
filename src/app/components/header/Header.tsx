@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 const Header = () => {
@@ -31,10 +32,18 @@ const Header = () => {
         <div className="text-base">👨‍💻 JISU</div>
         <div className="flex items-center">
           <ul className="flex gap-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li>
+              <Link href="#intro">Home</Link>
+            </li>
+            <li>
+              <Link href="#about">About</Link>
+            </li>
+            <li>
+              <Link href="#project">Projects</Link>
+            </li>
+            <li>
+              <Link href="#contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </div>

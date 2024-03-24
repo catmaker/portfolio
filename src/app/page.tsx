@@ -7,10 +7,18 @@ export default function Home() {
   return (
     <main className=" bg-white text-black w-full bg-[url('/img/bubble.png')] bg-cover bg-center bg-fixed">
       <Header />
-      <Intro />
-      <About />
-      <Project />
-      <Contact />
+      <div id="intro">
+        <Intro />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="project">
+        <Project />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </main>
   );
 }
