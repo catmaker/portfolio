@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "custom-orange": "#FC836C",
+      },
+      width: {
+        "90": "90%",
+      },
       animation: {
         shake: "shake 0.82s cubic-bezier(.36,.07,.19,.97) both",
       },
@@ -30,6 +36,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+  },
+  variants: {
+    extends: {},
   },
   plugins: [],
 };
