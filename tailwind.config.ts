@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      height: {
+        "1/4vh": "25vh",
+        "1/2vh": "50vh",
+        "3/4vh": "75vh",
+        "1vh": "100vh",
+      },
       transitionDuration: {
         "1000": "1000ms",
       },
