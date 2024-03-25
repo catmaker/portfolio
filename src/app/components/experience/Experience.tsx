@@ -18,7 +18,7 @@ const Experience = () => {
       <a
         href="https://event.multicampus.com/multicampusmain"
         target="_blank"
-        className="mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 "
       >
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
@@ -40,7 +40,7 @@ const Experience = () => {
       <a
         href="https://www.daelim.ac.kr/intro.do"
         target="_blank"
-        className="mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 "
       >
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
