@@ -29,10 +29,10 @@ const Experience = () => {
           objectFit="cover"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
             멀티잇 프론트엔드 개발 (React 3회차)
           </h5>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 ">
             2023-08-16 - 2023-12-27
           </p>
         </div>
@@ -51,12 +51,10 @@ const Experience = () => {
           objectFit="cover"
         />
         <div className=" flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
             대림대학교 방송음향영상학과 (3년제)
           </h5>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            2017-03 - 2022-02
-          </p>
+          <p className="mb-3 font-normal text-gray-700 ">2017-03 - 2022-02</p>
         </div>
       </a>
       <div className="border-b-2 w-full m-auto mt-16 border-grey"></div>
