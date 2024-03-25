@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       transitionDuration: {
-        "3000": "3000ms",
+        "1000": "1000ms",
       },
       screens: {
         sm: "640px",

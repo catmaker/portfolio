@@ -1,9 +1,19 @@
+"use client";
 import React from "react";
 
+import useVisibility from "@/app/hooks/useVisibility";
+
 const About = () => {
+  const { ref: myRef, isVisible } = useVisibility();
+
   return (
     <>
-      <div className="flex-col md:flex-row text-black w-4/5 m-auto min-h-20 items-center justify-center pt-12">
+      <div
+        ref={myRef}
+        className={`flex-col md:flex-row text-black w-4/5 m-auto min-h-20 items-center justify-center pt-12 transition-opacity transition-transform duration-1000 ${
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
+        }`}
+      >
         <h1 className="text-4xl font-bold text-custom-orange">Introduction</h1>
         <div>
           <p className="text-sm sm:text-base leading-relaxed mt-4">
