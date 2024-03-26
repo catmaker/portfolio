@@ -37,6 +37,9 @@ const Header = () => {
             </li>
             <li className="transition-colors duration-200 hover:text-custom-orange">
               <Link href="#about">About</Link>
+            </li>{" "}
+            <li className="transition-colors duration-200 hover:text-custom-orange">
+              <Link href="#project">Project</Link>
             </li>
             <li className="transition-colors duration-200 hover:text-custom-orange">
               <Link href="#experience">Experience</Link>
