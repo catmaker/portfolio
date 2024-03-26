@@ -37,8 +37,8 @@ const Project = () => {
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
           src="/img/mulcamLogo.webp"
-          width={50}
-          height={50}
+          width={110}
+          height={110}
           alt=""
           objectFit="cover"
         />
@@ -151,9 +151,9 @@ const Project = () => {
       >
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
-          src="/img/mulcamLogo.webp"
-          width={50}
-          height={50}
+          src="/img/newworld.svg"
+          width={110}
+          height={110}
           alt=""
           objectFit="cover"
         />
@@ -165,15 +165,19 @@ const Project = () => {
             2024-01-10 - 2024-03-10
           </p>
           <p className="mb-3 font-normal text-gray-700 ">
-            강의 추천 및 스터디를 모집하고 같이 스터디 모임을 할 수 있는
-            사이트입니다.
+            유저가 직접 퀴즈를 제작하고 풀 수 있는 퀴즈 플랫폼입니다.
           </p>
         </div>
       </div>
       {isSecondDivVisible && (
         <div className="mt-6 flex flex-col p-9 bg-white border border-gray-200 rounded-lg shadow duration-1000 hover:bg-gray-100 ">
           <div className="flex">
-            <p className="justify-center items-center">New World</p>
+            <Image
+              src="img/newworld.svg"
+              width={110}
+              height={110}
+              alt="newworldLogo"
+            ></Image>
             <div>
               <p className="ml-8">New World</p>
               <p className="ml-8 mt-2">
@@ -253,8 +257,8 @@ const Project = () => {
           <div className="p-2 flex flex-col">
             <p className="font-bold">기술 스택 / 툴</p>
             <p className="mt-4 text-sm leading-relaxed text-gray-800">
-              Next.js, TypeScript, Axios, SCSS, MySql, SpringBoot, Notion, Figma
-              GitHub, Discord
+              Next.js, TypeScript, Axios, SCSS, MySql, SpringBoot, Notion,
+              Figma, GitHub, Discord
             </p>
           </div>
 
@@ -287,21 +291,20 @@ const Project = () => {
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
           src="/img/mulcamLogo.webp"
-          width={50}
-          height={50}
+          width={110}
+          height={110}
           alt=""
           objectFit="cover"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
-            ST.U
+            Portfolio
           </h5>
           <p className="mb-3 font-normal text-gray-700 ">
-            2023-11-20 - 2023-12-21
+            2024-03-21 - 2024-03-26
           </p>
           <p className="mb-3 font-normal text-gray-700 ">
-            강의 추천 및 스터디를 모집하고 같이 스터디 모임을 할 수 있는
-            사이트입니다.
+            현재 보고 계신 포트폴리오 사이트입니다.
           </p>
         </div>
       </div>
