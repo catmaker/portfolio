@@ -14,7 +14,7 @@ const Intro = () => {
             alt=""
           />
         </div>
-        <div className="flex w-5/6 mt-6 flex-col">
+        <div className="flex w-5/6 mt-6 flex-col p-12">
           <h3 className=" text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold transition-size duration-200 ">
             신지수 (Shin Ji Su)
           </h3>

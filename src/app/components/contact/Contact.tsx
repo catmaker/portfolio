@@ -1,51 +1,60 @@
+"use client";
+import Image from "next/image";
 import React from "react";
 
+import useVisibility from "@/app/hooks/useVisibility";
+
 const Contact = () => {
+  const { ref: myRef, isVisible } = useVisibility();
+
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
-      <div className="flex gap-4 md:gap-8 lg:gap-12 xl:gap-16 mb-4 md:mb-8 lg:mb-12 xl:mb-16 w-4/5 max-w-5xl">
-        <div className="flex border p-4 w-1/2 flex-col bg-white text-black rounded-xl min-h-48 min-w-48 gap-4 transition-shadow duration-300 hover:shadow-lg hover:animate-shake shadow-md">
-          <div className="flex justify-center items-center font-bold">
-            ABOUT ME
-          </div>
-          <div className="flex flex-col gap-1 text-xs md:text-base">
-            <p>신지수</p>
-            <p>1997.05.23</p>
-            <p>대림대학교 방송음향영상과</p>
-            <p className="text-xs">음향, 영상 복수전공</p>
-          </div>
+    <div
+      ref={myRef}
+      className={`flex-col md:flex-row text-black w-4/5 m-auto min-h-20 items-center justify-center pt-12 transition-opacity transition-transform duration-1000 ${
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
+      }`}
+    >
+      <h1 className="text-4xl font-bold text-custom-orange">Contact</h1>
+      <a
+        href="https://mail.google.com/"
+        target="_blank"
+        className="mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 "
+      >
+        <Image
+          className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
+          src="/img/gmail.svg"
+          width={50}
+          height={50}
+          alt=""
+          objectFit="cover"
+        />
+        <div className="flex flex-col justify-between p-4 leading-normal">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
+            Gmail
+          </h5>
+          <p className="mb-3 font-normal text-gray-700 ">rzt0357@gmail.com</p>
         </div>
-        <div className="flex border p-4 w-1/2 flex-col bg-white text-black rounded-xl min-h-48 min-w-48 gap-4 transition-shadow duration-300 hover:shadow-lg hover:animate-shake shadow-md">
-          <div className="flex justify-center items-center font-bold">
-            CHANNEL
-          </div>
-          <div className="flex flex-col gap-1 text-xs md:text-base">
-            <a href="https://github.com/catmaker" target="_blank">
-              https://github.com/catmaker
-            </a>
-            <a href="notion.io" target="_blank">
-              notion.io
-            </a>
-          </div>
+      </a>
+      <a
+        href="#"
+        className="mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 "
+      >
+        <Image
+          className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
+          src="/img/iphone.png"
+          width={50}
+          height={50}
+          alt=""
+          objectFit="cover"
+        />
+        <div className=" flex flex-col justify-between p-4 leading-normal">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
+            Phone Number
+          </h5>
+          <p className="mb-3 font-normal text-gray-700 ">010-4951-4437</p>
         </div>
-      </div>
-      <div className="flex gap-4 md:gap-8 lg:gap-12 xl:gap-16 mb-4 md:mb-8 lg:mb-12 xl:mb-16 w-4/5 max-w-5xl">
-        <div className="flex border p-4 w-1/2 flex-col bg-white text-black rounded-xl min-h-48 min-w-48 gap-4 transition-shadow duration-300 hover:shadow-lg hover:animate-shake shadow-md">
-          <div className="flex justify-center items-center font-bold">
-            EDUCATION
-          </div>
-          <div className="flex flex-col gap-1 text-xs md:text-base">
-            <p className="text-xs">2023-08-16 - 2023-12-27</p>
-            <p>멀티잇 프론트엔드 개발(React)</p>
-          </div>
-        </div>
-        <div className="flex border p-4 w-1/2 flex-col bg-white text-black rounded-xl min-h-48 min-w-48 gap-4 transition-shadow duration-300 hover:shadow-lg hover:animate-shake shadow-md">
-          <div className="flex justify-center items-center font-bold">WORK</div>
-          <div className="flex flex-col gap-1 text-xs md:text-base">
-            <p className="text-xs">2023.06~2023.08</p>
-          </div>
-        </div>
-      </div>
+      </a>
+      <div className="border-b-2 w-full m-auto mt-16 border-grey"></div>
     </div>
   );
 };

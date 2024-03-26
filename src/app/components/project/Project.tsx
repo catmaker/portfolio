@@ -31,7 +31,7 @@ const Project = () => {
     >
       <h1 className="text-4xl font-bold text-custom-orange">Project</h1>
       <div
-        className="cursor-pointer mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row duration-1000 hover:bg-gray-100 "
+        className={`cursor-pointer mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row duration-1000 hover:bg-gray-100 ${isDivVisible ? "bg-custom-orange" : ""}`}
         onClick={handleClick}
       >
         <Image
@@ -146,7 +146,7 @@ const Project = () => {
         </div>
       )}
       <div
-        className="cursor-pointer mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row duration-1000 hover:bg-gray-100 "
+        className={`cursor-pointer mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row duration-1000 hover:bg-gray-100 ${isSecondDivVisible ? "bg-custom-orange" : ""}`}
         onClick={handleClickSecond}
       >
         <Image
@@ -285,12 +285,12 @@ const Project = () => {
         </div>
       )}
       <div
-        className="cursor-pointer mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row duration-1000 hover:bg-gray-100 "
+        className={`cursor-pointer mt-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row duration-1000 hover:bg-gray-100 ${isThirdDivVisible ? "bg-custom-orange" : ""}`}
         onClick={handleClickThird}
       >
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
-          src="/img/mulcamLogo.webp"
+          src="/img/developer.png"
           width={110}
           height={110}
           alt=""
