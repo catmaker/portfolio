@@ -1,7 +1,8 @@
 import React from "react";
 
-const loading = () => {
-  return <div>loading</div>;
+import Skeleton from "./components/ui/Skeleton";
+const Loading = () => {
+  return <Skeleton />;
 };
 
-export default loading;
+export default Loading;
