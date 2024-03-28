@@ -26,7 +26,6 @@ const Contact = () => {
           width={50}
           height={50}
           alt=""
-          objectFit="cover"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
@@ -45,7 +44,6 @@ const Contact = () => {
           width={50}
           height={50}
           alt=""
-          objectFit="cover"
         />
         <div className=" flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
