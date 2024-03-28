@@ -36,7 +36,7 @@ const Project = () => {
       >
         <Image
           className="m-8 rounded-t-lg  md:h-auto md:rounded-none md:rounded-s-lg"
-          src="/img/mulcamLogo.webp"
+          src="/img/stuLogo.svg"
           width={110}
           height={110}
           alt=""
@@ -141,6 +141,16 @@ const Project = () => {
               className="mt-4 text-sm leading-relaxed text-gray-800 hover:text-custom-orange duration-200"
             >
               https://github.com/e4-project/final-e4?tab=readme-ov-file
+            </a>
+          </div>
+          <div className="p-2 flex flex-col">
+            <p className="font-bold">Link</p>
+            <a
+              href="https://st-u.vercel.app/"
+              target="_blank"
+              className="mt-4 text-sm leading-relaxed text-gray-800 hover:text-custom-orange duration-200"
+            >
+              https://st-u.vercel.app/
             </a>
           </div>
         </div>
